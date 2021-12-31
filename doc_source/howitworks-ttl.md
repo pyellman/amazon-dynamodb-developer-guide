@@ -19,7 +19,7 @@ You can monitor TTL rates on the CloudWatch metrics tab for a table, and see whe
 
 ## Time to Live Example<a name="howitworks-ttl-Example"></a>
 
-For example, consider a table named SessionData that tracks the session history of users\. Each item in `SessionData` is identified by the partition key \(`UserName`\) and the sort key \(`SessionId`\)\. Additional attributes like `UserName`, `SessionId`, `CreationTime`, and `ExpirationTime` track the session information\. The `ExpirationTime` attribute is set as the TTL attribute on the table \(not all of the attributes on each item are shown\)\.
+For example, consider a table named SessionData that tracks the session history of users\. Each item in `SessionData` is identified by the partition key \(`UserName`\) and the sort key \(`SessionId`\)\. Additional attributes like `UserName`, `SessionInfo`, `CreationTime`, and `ExpirationTime` track the session information\. The `ExpirationTime` attribute is set as the TTL attribute on the table \(not all of the attributes on each item are shown\)\.
 
 
 **SessionData**  
